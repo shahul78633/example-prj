@@ -1,0 +1,77 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header section */
+header {
+  background-color: #1f1f1f;
+  color: #00bcd4;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: #2c2c2c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #80cbc4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* Section styling */
+section {
+  background: #1e1e1e;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Headings */
+h2 {
+  color: #ffab40;
+  margin-bottom: 1rem;
+}
+
+/* Skills list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #2c2c2c;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #e0e0e0;
+}
